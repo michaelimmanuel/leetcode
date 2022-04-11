@@ -18,7 +18,7 @@ int mySqrt(int x) {
             right = mid - 1;
         }
     }
-    return high;
+    return right;
 }
 
 int main(){
